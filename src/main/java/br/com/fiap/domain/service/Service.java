@@ -11,5 +11,4 @@ public interface Service<T, U> {
     public List<T> findByName(String texto);
 
     public T persist(T t);
-
 }
